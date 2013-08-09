@@ -24,3 +24,15 @@
 	-webkit-transform: rotateZ(360deg);
     	-moz-transform: rotateZ(360deg);
 }
+
+/*the relwall page, textarea of advanced editor, make the size unresizeable...
+ * maybe we can change more style of the editor...it's a little ugly for our 
+ * system...*/
+.ke-edit-textarea{
+	resize:none;
+}
+
+/*I want to make all the pages Personal Center links to with the background-color of #ffffff...
+ * how do u think about...
+ * So the style of pages we do before and now can be the same easily... 
+ * and to the most of users, white is more comfortable than the other warm colors... */
