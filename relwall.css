@@ -1,0 +1,340 @@
+/*左侧气泡样式*/
+/* Begin */
+.arrow {
+	position: relative;
+	float: left;
+	margin-top: 15px;
+	width: 20px;
+	height: 20px;
+	width: 20px;
+}
+
+.arrow .arrow_border,.arrow .arrow_content {
+	width: 0;
+	height: 0;
+	overflow: hidden;
+	border-width: 10px;
+	border-style: dashed solid dashed dashed;
+}
+
+.arrow .arrow_border {
+	border-color: transparent #9BCD9B transparent transparent;
+}
+
+.arrow .arrow_content {
+	border-color: transparent #9BCD9B transparent transparent;
+	position: absolute;
+	top: 1px;
+}
+
+.main {
+	float: left;
+	max-width:320px;
+	width: auto;
+}
+
+.b1,.b2,.b3,.b4,.b5,.b6,.b7,.b8 {
+	height: 1px;
+	overflow: hidden;
+	display: block;
+}
+
+.b1,.b8 {
+	height: 0px;
+	margin: 0 5px;
+}
+
+.b1 {
+	border-bottom: #9BCD9B solid 1px;
+}
+
+.b8 {
+	border-top: #9BCD9B solid 1px;
+}
+
+.b2,.b3,.b4,.b5,.b6,.b7 {
+	border-left: #9BCD9B solid 1px;
+	border-right: #9BCD9B solid 1px;
+}
+
+.b2,.b7 {
+	margin: 0 3px;
+	border-width: 2px;
+}
+
+.b3,.b6 {
+	margin: 0 2px;
+}
+
+.b4,.b5 {
+	margin: 0 1px;
+	height: 2px;
+}
+
+.b2,.b3,.b4,.b5,.b6,.b7,.content {
+	background-color: #9BCD9B;
+}
+
+.content {
+	border-left: solid #9BCD9B 1px;
+	border-right: solid #9BCD9B 1px;
+	padding: 10px;
+	position: relative;
+}
+
+.content span {
+
+}
+
+.content span.font-left {
+	top: -10px;
+	left: -30px;
+	_left: -55px; /* 为了兼容IE6.0 */
+}
+
+.content span.font-right {
+	bottom: -45px;
+	right: -30px;
+}
+
+.content p.translation {
+	text-align: right;
+	font-style: italic;
+}
+/* End */
+
+/*右侧气泡样式*/
+/* Begin */
+.arrow_right {
+	position: relative;
+	float: right;
+	margin-top: 15px;
+	width: 20px;
+	height: 20px;
+	width: 20px;
+}
+
+.arrow_right .arrow_right_border,.arrow_right .arrow_right_content {
+	width: 0;
+	height: 0;
+	overflow: hidden;
+	border-width: 10px;
+	border-style: dashed dashed dashed solid;
+}
+
+.arrow_right .arrow_right_border {
+	border-color: transparent transparent transparent #ADD8E6;
+}
+
+.arrow_right .arrow_right_content {
+	border-color: transparent transparent transparent #ADD8E6;
+	position: absolute;
+	top: 1px;
+}
+
+.main_right {
+	float: right;
+	max-width:320px;
+	width: auto;
+}
+
+.b1_right,.b2_right,.b3_right,.b4_right,.b5_right,.b6_right,.b7_right,.b8_right
+	{
+	height: 1px;
+	overflow: hidden;
+	display: block;
+}
+
+.b1_right,.b8_right {
+	height: 0px;
+	margin: 0 5px;
+}
+
+.b1_right {
+	border-bottom: #ADD8E6 solid 1px;
+}
+
+.b8_right {
+	border-top: #ADD8E6 solid 1px;
+}
+
+.b2_right,.b3_right,.b4_right,.b5_right,.b6_right,.b7_right {
+	border-left: #ADD8E6 solid 1px;
+	border-right: #ADD8E6 solid 1px;
+}
+
+.b2_right,.b7_right {
+	margin: 0 3px;
+	border-width: 2px;
+}
+
+.b3_right,.b6_right {
+	margin: 0 2px;
+}
+
+.b4_right,.b5_right {
+	margin: 0 1px;
+	height: 2px;
+}
+
+.b2_right,.b3_right,.b4_right,.b5_right,.b6_right,.b7_right,.content_right
+	{
+	background-color: #ADD8E6;
+}
+
+.content_right {
+	border-left: solid #ADD8E6 1px;
+	border-right: solid #ADD8E6 1px;
+	padding: 10px;
+	position: relative;
+}
+
+.content_right span {
+
+}
+
+.content_right span.font-left {
+	top: -10px;
+	left: -30px;
+	_left: -55px; /* 为了兼容IE6.0 */
+}
+
+.content_right span.font-right {
+	bottom: -45px;
+	right: -30px;
+}
+/* End */
+.content_right p.translation {
+	text-align: right;
+	font-style: italic;
+}
+
+/*中间时间样式*/
+.relwall_time_center {
+	margin: 10px auto;
+	width: 160px;
+}
+
+.b1_center,.b2_center,.b3_center,.b4_center,.b5_center,.b6_center,.b7_center,.b8_center
+	{
+	height: 1px;
+	overflow: hidden;
+	display: block;
+}
+
+.b1_center,.b8_center {
+	height: 0px;
+	margin: 0 5px;
+}
+
+.b1_center {
+	border-bottom: #D9D9D9 solid 1px;
+}
+
+.b8_center {
+	border-top: #D9D9D9 solid 1px;
+}
+
+.b2_center,.b3_center,.b4_center,.b5_center,.b6_center,.b7_center {
+	border-left: #D9D9D9 solid 1px;
+	border-right: #D9D9D9 solid 1px;
+}
+
+.b2_center,.b7_center {
+	margin: 0 3px;
+	border-width: 2px;
+}
+
+.b3_center,.b6_center {
+	margin: 0 2px;
+}
+
+.b4_center,.b5_center {
+	margin: 0 1px;
+	height: 2px;
+}
+
+.b2_center,.b3_center,.b4_center,.b5_center,.b6_center,.b7_center,.content_center
+	{
+	background-color: #D9D9D9;
+}
+
+.content_center {
+	text-align: center;
+	border-left: solid #D9D9D9 1px;
+	border-right: solid #D9D9D9 1px;
+	padding: 1px;
+	position: relative;
+	border-left: solid #D9D9D9 1px;
+	
+	font-size: 13px;
+	font-style: italic;
+}
+
+.content_center span {
+	font-size: 13px;
+	font-family: "宋体";
+	color: #D9D9D9;
+	position: absolute;
+}
+
+.content_center span.font-center {
+	top: -10px;
+	left: -30px;
+	_left: -55px; /* 为了兼容IE6.0 */
+}
+
+.content_center span.font-center {
+	bottom: -45px;
+	right: -30px;
+}
+
+/* 会话气泡 和头像*/
+.relwall-user-left {
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.relwall-msg-left {
+	float: left;
+	margin-top: 10px;
+	margin-left: 30px;
+}
+
+.relwall-user-right {
+	float: right;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.relwall-msg-right {
+	float: right;
+	margin-top: 10px;
+	margin-right: 30px;
+}
+
+/*回复和互动墙列表之间的HR*/
+.relwall_hr {
+	width:30px;
+	margin:0 auto;
+	height: 1px;
+	border: 0;
+	border-top: 2px dotted #ddd;
+}
+
+/*我要回复*/
+.relwall-reply {
+	float: right;
+	margin-right: 0px;
+	padding: 10px;
+}
+
+.relwall-reply-me {
+	float: right;
+	*margin-right:180px;
+	*margin-top:5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding: 10px;
+}

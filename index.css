@@ -1,0 +1,438 @@
+@charset "utf-8";
+/* CSS Document */
+.center {
+	width: auto;
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+	*margin-left: 180px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.left {
+	width: auto;
+	display: table;
+	float:left;
+	margin-left:5px;
+
+}
+
+.text-left {
+	text-align: left;
+}
+.right {
+	width: auto;
+	display: table;
+	float:right;
+	margin-right:5px;
+}
+
+.text-right {
+	text-align: right;
+}
+/* Sticky footer styles */
+html,body {
+	height: 98%;
+	*height: 96%;
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	/* Negative indent footer by it's height */
+	margin: 0 auto -39px;
+}
+
+/* Set the fixed height of the footer here */
+#push,#footer {
+	height: 30px;
+}
+
+#footer {
+	background-color: #f5f5f5;
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media ( max-width : 767px) {
+	#footer {
+		margin-left: -20px;
+		margin-right: -20px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+
+/* Custom page CSS
+ *       -------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+.container .credit {
+	margin: 20px 0;
+}
+
+#flash {
+	font-size: 20px;
+	text-align: center;
+}
+
+#flash a {
+	color: #eeeeee;
+	padding: 20px 40px;
+	line-height: 20px;
+	margin-top: 270px;
+	display: inline-block;
+	border: 1px double #CCC;
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	box-shadow: 0 0 3px #f1f1f1;
+	-moz-box-shadow: 0 0 3px #f1f1f1;
+	-webkit-box-shadow: 0 0 3px #f1f1f1;
+}
+
+#flash a:hover {
+	color: #ffffff;
+	letter-spacing: 2px;
+	text-shadow: 0 0 3px #ffffff;
+	transition: letter-spacing .5s ease-in .0s;
+	-webkit-transition: letter-spacing .5s ease-in .0s;
+	-moz-transition: letter-spacing .5s ease-in .0s;
+	-o-transition: letter-spacing .5s ease-in .0s;
+}
+/***********************************common*****************************************/
+#ontop {
+	position: fixed;
+	width: 100%;
+	opacity: 1;
+	z-index: 100;
+}
+
+header {
+	padding-top: 10px;
+	background-color: #333;
+	color: #333;
+	text-align: left;
+	padding-left: 40px;
+	/* 	box-shadow:0 3px 3px #999;
+ *  		-moz-box-shadow:0 3px 3px #999;
+ *  			-webkit-box-shadow:0 3px 3px #999; */
+}
+
+header a {
+	float: left;
+	color: #fff;
+	display: inline-block;
+}
+
+header h1 {
+	display: none;
+}
+
+header p {
+	display: inline-block;
+}
+
+header nav {
+	display: inline-block;
+	position: relative;
+	padding: 12px 40px;
+	clear: both;
+}
+
+
+
+header nav span a,header p a,footer a,footer span {
+	display: inline-block;
+	padding: 6px 26px;
+	border-radius: 25px;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+}
+
+.clear {
+	clear: both;
+}
+
+header nav span a:hover,header p a:hover,header nav .current,footer a:hover,footer span:hover
+	{
+	text-decoration: none;
+	transition: all .3s ease-in .0s;
+	-webkit-transition: all .3s ease-in .0s;
+	-moz-transition: all .3s ease-in .0s;
+	-o-transition: all .3s ease-in .0s;
+}
+
+.logo {
+	width: 109px;
+	height: 41px;
+	width: 50px;
+	height: 50px;
+	
+}
+header nav a{
+	margin-left:10px;
+
+}
+#useractions {
+	padding: 6px 40px;
+}
+
+#useractions a {
+	color: #fff;
+	background: none;
+	padding: 0px 10px;
+}
+
+footer {
+	padding-bottom: 24px;
+	background-color: #333;
+	color: #666;
+	text-align: center;
+	width: 100%;
+}
+
+footer a,footer span {
+	color: #fff;
+	display: inline-block;
+	margin-top: 20px;
+}
+
+.alert {
+	width: 100px;
+}
+
+.span8 .alert {
+	width: 500px;
+	margin: 0 auto;
+}
+
+.form-actions a {
+	margin-left: 1em;
+}
+
+form textarea {
+	resize: none;
+}
+
+form textarea:focus {
+	height: 60px;
+}
+
+form .btn,form .btn-link {
+	border: 0;
+}
+
+.span7 {
+	float: left;
+	background-color: #EBF2FA;
+	padding: 4em 2em;
+	margin: 8em 3em 2em 3em;
+	box-shadow: 0 0 3px #36ace1;
+	-moz-box-shadow: 0 0 3px #36ace1;
+	-webkit-box-shadow: 0 0 3px #36ace1;
+}
+
+.span4 {
+	background-color: #EBF2FA;
+	padding: 4em 2em;
+	margin: 8em 3em 2em 3em;
+	border-top-right-radius: 70px 40px;
+	-moz-top-right-radius: 70px 40px;
+	-webkit-top-right-radius: 70px 40px;
+	box-shadow: 0 0 3px #36ace1;
+	-moz-box-shadow: 0 0 3px #36ace1;
+	-webkit-box-shadow: 0 0 3px #36ace1;
+	background-color: #EBF2FA;
+}
+button.close{
+	margin-top:10px;
+	margin-right:15px;
+	font-size:24px;
+}
+.span12 {
+	background-color: #ffffff;
+	margin: 8em 3em 4em 3em;
+	padding-bottom: 50px;
+	/* box-shadow: 1px 1px 3px #333;
+ * 	-moz-box-shadow: 1px 1px 3px #333;
+ * 		-webkit-box-shadow: 1px 1px 3px #333; */
+}
+
+.span14 {
+	background-color: #EBF2FA;
+	margin: 8em 3em 4em 3em;
+	width:98%;
+}
+
+.span14 .midpage {
+	padding: 2em;
+}
+
+/* TODO */
+.span12 .midpage {
+	padding: 2em;
+	/* background-color: #EBF2FA; */
+	/* border: 1px solid #ddd;
+ * 	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
+ * 		-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
+ * 			box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
+ * 				-webkit-transition: all 0.2s ease-in-out;
+ * 					-moz-transition: all 0.2s ease-in-out;
+ * 						-o-transition: all 0.2s ease-in-out;
+ * 							transition: all 0.2s ease-in-out; */
+}
+
+.span4:hover {
+	border-top-right-radius: 0;
+	-moz-top-right-radius: 0;
+	-webkit-top-right-radius: 0;
+	transition: all .2s ease-in .0s;
+	-webkit-transition: all .2s ease-in .0s;
+	-moz-transition: all .2s ease-in .0s;
+	-o-transition: all .2s ease-in .0s;
+}
+
+.span12:hover {
+	-webkit-transition: opacity .5s ease-in .0s;
+	-moz-transition: opacity .5s ease-in .0s;
+	-o-transition: opacity .5s ease-in .0s;
+}
+
+.tips {
+	position: relative;
+	top: -65px;
+	font-size: 16px;
+	opacity: 1;
+	padding: 0.5em 3em;
+	background-color: #dddddd;
+	color: #345690;
+	box-shadow: 0 0 1px #ffffff;
+	-moz-box-shadow: 0 0 1px #ffffff;
+	-webkit-box-shadow: 0 0 1px #ffffff;
+	z-index: 3;
+}
+
+.midpage .tips {
+	position: relative;
+	top: -39px;
+	font-size: 16px;
+	opacity: 1;
+	padding: 0.5em 3em;
+	background-color: #dddddd;
+	color: #345690;
+	box-shadow: 0 0 1px #ffffff;
+	-moz-box-shadow: 0 0 1px #ffffff;
+	-webkit-box-shadow: 0 0 1px #ffffff;
+	z-index: 3;
+}
+
+ .profile {
+	width: 150px;
+	border: 1px solid #eee;
+}
+
+.profile-small{
+	width: 50px;
+	border: 1px solid #eee;
+}
+
+.profile-middle{
+	width: 100px;
+	border: 1px solid #eee;
+}
+.profile-small,.profile-middle{
+	box-shadow: inset 0 -1px 0 #a9d9dc;
+	-webkit-box-shadow: inset 0 -1px 0 #a9d9dc;
+	-webkit-transition: 0.4s;	
+	-webkit-transition: -webkit-transform 0.4s ease-out;
+	transition: transform 0.4s ease-out;
+    	-moz-transition: -moz-transform 0.4s ease-out;
+}
+.profile-small:hover,.profile-middle:hover{
+	box-shadow: 0 0 10px #fff; rgba(255,255,255,.6), inset 0 0 20px rgba(255,255,255,1);
+	-webkit-box-shadow: 0 0 10px #fff; rgba(255,255,255,.6), inset 0 0 20px rgba(255,255,255,1);
+	transform: rotateZ(360deg);
+	-webkit-transform: rotateZ(360deg);
+    	-moz-transform: rotateZ(360deg);
+}
+nav .profile-small,nav .profile-small:hover{
+    box-shadow:0 0 0 transparent;
+    -webkit-box-shadow:0 0 0 transparent;
+    
+    }
+.quit {
+	margin: 3em 0;
+}
+
+.quit h4 {
+	display: inline-block;
+	background-color: transparent;
+}
+
+.quit p a {
+	margin-left: 2em;
+}
+
+.quit img {
+	height: 300px;
+	width: 620px;
+}
+
+.message-box a {
+	color: #000;
+}
+
+.unread {
+	font-weight: bold;
+	color: #000;
+}
+
+.message-box tr {
+	line-height: 40px;
+}
+
+.msg-detail {
+	height: 100px;
+	display: none;
+}
+
+.meg-detail-div {
+	padding: 5px;
+	border: 1px dotted #B3C9D4;
+}
+
+.readed {
+	font-weight: normal;
+	color: #000;
+}
+
+.message-box a:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+.message-box a:active {
+	color: #000;
+}
+
+.finfo{
+    min-height:160px;
+        border:0;
+        background-color:#dedede;
+  	margin:10px;
+  	padding:15px 5px;
+  	box-shadow:1px 0 1px #ddd; 
+  	color:#333333;
+  	text-shadow:1px 0 1px #fff;
+}
+.finfo:hover{
+  	background-color:#eeeeee;
+	-webkit-transition: background-color 0.4s ease-out;
+        transition: background-color 0.4s ease-out;
+        -moz-transition: background-color 0.4s ease-out;
+}
+
