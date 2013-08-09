@@ -1,0 +1,23 @@
+/*in the relwall page, about .b2, .b3, .b4, .b5, .b6, .b7, .content, for the frequent freshing, I can not try to change it in chrome...囧*/
+{background-color:#edf0d1;}
+/*in the relwall page, about the whole page*/
+{background-color:#ffffff;}
+/*in the relwall page, about the profile*/
+.profile-small{
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	box-shadow: inset 0 -1px 0 #3333sf;
+	-webkit-box-shadow: inset 0 -1px 0 #3333sf;
+	-webkit-transition: 0.4s;	
+	-webkit-transition: -webkit-transform 0.4s ease-out;
+	transition: transform 0.4s ease-out;
+    	-moz-transition: -moz-transform 0.4s ease-out;
+}
+.profile-small:hover{
+	box-shadow: 0 0 10px #fff; rgba(255,255,255,.6), inset 0 0 20px rgba(255,255,255,1);
+	-webkit-box-shadow: 0 0 10px #fff; rgba(255,255,255,.6), inset 0 0 20px rgba(255,255,255,1);
+	transform: rotateZ(360deg);
+	-webkit-transform: rotateZ(360deg);
+    	-moz-transform: rotateZ(360deg);
+}
