@@ -6,7 +6,7 @@
 /*in the relwall page, about the whole page*/
 {background-color:#ffffff;}
 /*in the relwall page, about the profile*/
-.profile-small{
+.profile-small,.profile-middle{
 	border-radius:5px;
 	-webkit-border-radius:5px;
 	-moz-border-radius:5px;
@@ -17,7 +17,7 @@
 	transition: transform 0.4s ease-out;
     	-moz-transition: -moz-transform 0.4s ease-out;
 }
-.profile-small:hover{
+.profile-small:hover,.profile-middle:hover{
 	box-shadow: 0 0 10px #fff; rgba(255,255,255,.6), inset 0 0 20px rgba(255,255,255,1);
 	-webkit-box-shadow: 0 0 10px #fff; rgba(255,255,255,.6), inset 0 0 20px rgba(255,255,255,1);
 	transform: rotateZ(360deg);
@@ -33,11 +33,34 @@
 }
 /*the button*/
 button.close{
-  margin-top:10px;
-  margin-right:10px;
+	margin-top:10px;
+	margin-right:10px;
 }
 
 /*I want to make all the pages Personal Center links to with the background-color of #ffffff...
  * how do u think about...
  * So the style of pages we do before and now can be the same easily... 
  * and to the most of users, white is more comfortable than the other warm colors... */
+
+
+.span12,.span12 .midpage{
+	background-color:#ffffff;
+}
+
+/*myfriend page*/
+.finfo{
+        border:0;
+        background-color:#dedede;
+  	margin:10px;
+  	padding:15px 5px;
+  	box-shadow:1px 0 1px #ddd; 
+  	color:#333333;
+  	text-shadow:1px 0 1px #fff;
+}
+.finfo:hover{
+  	background-color:#eeeeee;
+	-webkit-transition: background-color 0.4s ease-out;
+        transition: background-color 0.4s ease-out;
+        -moz-transition: background-color 0.4s ease-out;
+}
+
