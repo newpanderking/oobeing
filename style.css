@@ -31,6 +31,11 @@
 .ke-edit-textarea{
 	resize:none;
 }
+/*the button*/
+button.close{
+  margin-top:10px;
+  margin-right:10px;
+}
 
 /*I want to make all the pages Personal Center links to with the background-color of #ffffff...
  * how do u think about...
